@@ -1,3 +1,5 @@
+// package task1;
+
 // import java.io.*;
 // import java.util.Arrays;
 // import java.util.Scanner;
@@ -14,7 +16,7 @@
 //     }
 
 //     static void writeNumbers() {
-//         try (FileWriter writer = new FileWriter("C:/Users/otbor/OneDrive/Рабочий стол/GB Файлы/jawa projects/input.txt", false)) {
+//         try (FileWriter writer = new FileWriter("task1/input.txt", false)) {
 
 //             int a = getScannerNumber();
 //             int b = getScannerNumber();
@@ -31,7 +33,7 @@
 //     }
 
 //     static void Result(double num) {
-//         try (FileWriter writer = new FileWriter("C:/Users/otbor/OneDrive/Рабочий стол/GB Файлы/jawa projects/output.txt", false)) {
+//         try (FileWriter writer = new FileWriter("task1/output.txt", false)) {
 //             String result = String.valueOf(num);
 //             writer.write(result);
 //             writer.flush();
@@ -59,7 +61,7 @@
 
 //     public static void main(String[] args) throws Exception {
 //         writeNumbers();
-//         String[] num = loadNumbers("C:/Users/otbor/OneDrive/Рабочий стол/GB Файлы/jawa projects/input.txt");
+//         String[] num = loadNumbers("task1/input.txt");
 //         int a = Integer.parseInt(num[1]);
 //         int b = Integer.parseInt(num[0]);
 //         double c = Math.pow(a, b);
